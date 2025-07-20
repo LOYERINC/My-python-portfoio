@@ -1,0 +1,106 @@
+age={"a"","}
+print(age[1])
+#error cause dictionaries are not ordered
+# to create an empty dictionary do  x=dict() or x={}
+#to create empty set x=set()
+
+
+my_list = [1, 2, 3, 4, 5]
+for item in my_list:
+    print(item)
+
+
+
+my_list = [1, 2, 3, 4, 5]
+my_list.remove(3)
+print(my_list)  # [1, 2, 4, 5]
+
+
+
+
+my_list = [1, 2, 4, 5]
+my_list.insert(2, 3)
+print(my_list)  # [1, 2, 3, 4, 5]
+
+
+
+
+my_list = [4, 2, 5, 1, 3]
+my_list.sort()
+print(my_list)  # [1, 2, 3, 4, 5]
+
+
+
+
+my_list = [1, 2, 3]
+my_list.extend([4, 5])
+print(my_list)  # [1, 2, 3, 4, 5]
+
+
+
+
+my_list = [1, 2, 3, 4, 5]
+my_list.reverse()
+print(my_list)  
+
+
+
+
+my_list = [4, 2, 5, 1, 3]
+my_list.sort()
+my_list.reverse()
+print(my_list) 
+my_list.insert(2, 6)
+print(my_list)  
+my_list.remove(6)
+print(my_list) 
+my_list.extend([7, 8])
+print(my_list)  
+
+
+ 
+#USE OF TUPLES
+#faster tan list
+#can convert into a list
+# cannot perform add, delete
+# uses normal brackets"()"
+#del statement can be used to delete the entire
+# tuples respond to the + and * operator
+
+#TYPE OF TUPLES
+# No element tuple, one element,2 element-tuple.
+
+# Calling a tuple  "[]" is always used e.g print[tup1]
+
+
+#INDEXING AD SLICING IN PYTHON
+#L[-1]=Spam!
+L=("spam,Spam,Spam!")
+L[-1]
+print(L)
+
+
+
+
+#ASSINGNENT
+#rite a prram to create one string tuple and oe numerical tuple
+#1.print the maximum and minimum value from the both
+#slice the string tuple from index 2 and 4
+
+
+string_tuple = ("apple", "banana", "cherry", "date", "elderberry")
+numerical_tuple = (10, 25, 5, 78, 40)
+
+
+print("Maximum value in string tuple:", max(string_tuple))
+print("Minimum value in string tuple:", min(string_tuple))
+print("Maximum value in numerical tuple:", max(numerical_tuple))
+print("Minimum value in numerical tuple:", min(numerical_tuple))
+
+
+sliced_string_tuple = string_tuple[2:4]
+print("Sliced string tuple (index 2 to 4):", sliced_string_tuple)
+
+
+items=('man','girl','100','true')
+print(items)
